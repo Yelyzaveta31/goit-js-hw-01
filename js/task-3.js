@@ -2,10 +2,10 @@
 
 // оголошення функції та параметрів
 function getElementWidth(content, padding, border) {
-    const contentWidth = Number.parseInt(content);
-   const paddingWidth = Number.parseFloat (padding);
-  const borderWidth = Number.parseInt (border);
-  return contentWidth + (2 * paddingWidth) + (2 * borderWidth);
+    content = Number.parseFloat(content);
+    padding = Number.parseFloat (padding);
+    border= Number.parseFloat (border);
+  return content + (2 * padding) + (2 * border);
 } 
 
 // Виведення функції з різними аргументами
